@@ -4,7 +4,7 @@ services:
     build: .
     container_name: cow-detection-app
     ports:
-      - "5000:5000"
+      - "35235:5000"
     volumes:
       - .:/app
     restart: unless-stopped
