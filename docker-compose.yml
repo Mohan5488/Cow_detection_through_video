@@ -1,8 +1,10 @@
 version: "3.8"
 services:
-  cow-detection-app:
-    build: .
-    container_name: cow-detection-app
+  cow-det-vid-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cow-det-vid-app
     ports:
       - "35235:5000"
     volumes:
