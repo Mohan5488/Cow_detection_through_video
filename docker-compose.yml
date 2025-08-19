@@ -1,3 +1,4 @@
+name: cow-det-vid-app
 version: "3.8"
 services:
   cow-det-vid-app:
